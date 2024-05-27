@@ -1,0 +1,26 @@
+.image_Card {
+  cursor: pointer;
+  width: 320px;
+  height: 320px;
+  overflow: hidden;
+}
+
+.card_Image {
+  padding: 0 5px 5px 5px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card_Image:hover {
+  border-radius: 25px;
+
+  transform: scale(0.95);
+  transition: all 0.2s ease-in-out;
+}
+
+.image_Card:hover {
+  transform: scale(0.9);
+  border-radius: 25px;
+  transition: all 0.2s ease-in-out;
+}
